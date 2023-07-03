@@ -1,0 +1,44 @@
+body{
+    margin: 0 40px 0 40px;
+}
+.row {
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+    gap: 10px;
+}
+.item {
+    margin-top: 20px;
+    height: 87vh;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.item1{
+   
+}
+.item2{
+    height: 87vh;
+}
+
+/* .btn:hover {
+    border: 2px solid black;
+    cursor: pointer;
+    color: black;
+} */
+
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.addBtn{
+    margin: 20px;
+    text-align: center;
+}
+
+.card-todo{
+    display: flex;
+    justify-content: space-between;
+}
